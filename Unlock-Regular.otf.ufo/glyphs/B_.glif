@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="B" format="1">
+  <advance width="654"/>
+  <unicode hex="0042"/>
+  <outline>
+    <contour>
+      <point x="639" y="162" type="curve" smooth="yes"/>
+      <point x="639" y="258"/>
+      <point x="572" y="298"/>
+      <point x="485" y="314" type="curve"/>
+      <point x="485" y="322" type="line"/>
+      <point x="568" y="338" smooth="yes"/>
+      <point x="629" y="378" smooth="yes"/>
+      <point x="629" y="473" type="curve" smooth="yes"/>
+      <point x="629" y="635" smooth="yes"/>
+      <point x="499" y="635" smooth="yes"/>
+      <point x="354" y="635" type="curve" smooth="yes"/>
+      <point x="30" y="635" type="line"/>
+      <point x="30" y="597" type="line" name="hr01"/>
+      <point x="74" y="597" type="line"/>
+      <point x="74" y="38" type="line"/>
+      <point x="30" y="38" type="line"/>
+      <point x="30" y="0" type="line"/>
+      <point x="364" y="0" type="line" smooth="yes"/>
+      <point x="509" y="0" smooth="yes"/>
+      <point x="639" y="0" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="289" y="579" type="line" name="hr02"/>
+      <point x="424" y="579" type="line"/>
+      <point x="424" y="345" type="line"/>
+      <point x="289" y="345" type="line"/>
+    </contour>
+    <contour>
+      <point x="424" y="60" type="line"/>
+      <point x="289" y="60" type="line"/>
+      <point x="289" y="290" type="line"/>
+      <point x="424" y="290" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="hr01">
+      <hstem3 stem3List="0,38,290,55,597,38" />
+      <vstem pos="74" width="215" />
+      <vstem pos="424" width="205" />
+    </hintset>
+    <hintset pointTag="hr02">
+      <hstem pos="0" width="60" />
+      <hstem pos="290" width="55" />
+      <hstem pos="579" width="56" />
+      <vstem pos="74" width="215" />
+      <vstem pos="424" width="205" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
+  </lib>
+</glyph>

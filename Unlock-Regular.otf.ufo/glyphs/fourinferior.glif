@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="fourinferior" format="1">
+  <advance width="371"/>
+  <unicode hex="2084"/>
+  <outline>
+    <contour>
+      <point x="0" y="76" type="line" name="hr00"/>
+      <point x="154" y="76" type="line"/>
+      <point x="154" y="0" type="line"/>
+      <point x="316" y="0" type="line"/>
+      <point x="316" y="76" type="line"/>
+      <point x="351" y="76" type="line"/>
+      <point x="351" y="131" type="line"/>
+      <point x="316" y="131" type="line"/>
+      <point x="316" y="396" type="line"/>
+      <point x="92" y="396" type="line"/>
+      <point x="0" y="116" type="line"/>
+    </contour>
+    <contour>
+      <point x="118" y="356" type="line"/>
+      <point x="154" y="356" type="line"/>
+      <point x="154" y="120" type="line"/>
+      <point x="76" y="120" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="hr00">
+      <hstem pos="21" width="-21" />
+      <hstem pos="76" width="44" />
+      <hstem pos="356" width="40" />
+      <vstem pos="154" width="162" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
+  </lib>
+</glyph>

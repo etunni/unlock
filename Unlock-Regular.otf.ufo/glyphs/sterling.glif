@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="sterling" format="1">
+  <advance width="575"/>
+  <unicode hex="00A3"/>
+  <outline>
+    <contour>
+      <point x="499" y="0" type="line"/>
+      <point x="499" y="162" type="line"/>
+      <point x="408" y="162" type="line"/>
+      <point x="374" y="53" type="line" name="hr01"/>
+      <point x="253" y="53" type="line"/>
+      <point x="281" y="89" smooth="yes"/>
+      <point x="300" y="149" smooth="yes"/>
+      <point x="300" y="251" type="curve" smooth="yes"/>
+      <point x="300" y="277" type="line"/>
+      <point x="423" y="277" type="line"/>
+      <point x="423" y="310" type="line"/>
+      <point x="300" y="310" type="line"/>
+      <point x="300" y="550" type="line"/>
+      <point x="387" y="550" type="line"/>
+      <point x="387" y="419" type="line"/>
+      <point x="471" y="419" type="line"/>
+      <point x="516" y="585" type="line"/>
+      <point x="477" y="599" smooth="yes"/>
+      <point x="405" y="615" smooth="yes"/>
+      <point x="338" y="615" type="curve" smooth="yes"/>
+      <point x="236" y="615" smooth="yes"/>
+      <point x="95" y="615" smooth="yes"/>
+      <point x="95" y="364" type="curve" smooth="yes"/>
+      <point x="95" y="310" type="line"/>
+      <point x="41" y="310" type="line"/>
+      <point x="41" y="277" type="line"/>
+      <point x="95" y="277" type="line"/>
+      <point x="95" y="33" type="line" name="hr02"/>
+      <point x="41" y="33" type="line"/>
+      <point x="41" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="hr01">
+      <hstem pos="0" width="53" />
+      <hstem pos="277" width="33" />
+      <hstem pos="550" width="65" />
+      <vstem pos="95" width="205" />
+    </hintset>
+    <hintset pointTag="hr02">
+      <hstem pos="0" width="162" />
+      <hstem pos="277" width="33" />
+      <hstem pos="550" width="65" />
+      <vstem pos="95" width="205" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
+  </lib>
+</glyph>
